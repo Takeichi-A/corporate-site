@@ -21,8 +21,8 @@ header{
     background: $gray_blue;
     
     #header_in{
-        padding-top: 10px;
-        padding-bottom: 4px;
+        padding-top: 15px;
+        padding-bottom: 10px;
     }//#header_in
     
     .container{
@@ -174,34 +174,35 @@ header{
 }//header
 
 #cover_area{
-    
-    text-align: center;
-    padding: 80px 0;
-    
-    //retina_bg
-    
-        background-image: url("../images/top/cover.jpg");
-        background-size: cover;
-        
-    @media screen and(-webkit-min-device-pixel-reatio:2),
-                     (min-resolution: 2dppx){
-                              
-                        background-image: url("../images/top/cover@2x.jpg");
-                              
-    }//@media
-    
-    @media(min-width: 551px){
-        
-        text-align: left;
-        height: 420px;
-        padding: 0;
-        
-        img{
-            margin-top: 180px;
-            margin-left: 70px;
-        }//img
-    }//min-width:551px
-}//#cover_area
+
+  text-align: center;
+  padding:80px 0;
+
+  //retina_bg
+
+    background-image: url("../images/top/cover.jpg");
+    background-size: cover;
+
+  @media screen and (-webkit-min-device-pixel-ratio:2),
+                    (min-resolution: 2dppx){
+
+    background-image: url("../images/top/cover@2x.jpg");
+
+  }
+  @media (min-width: 551px) {
+
+    text-align: left;
+    height:420px;
+    padding:0;
+
+    img{
+      margin-top: 180px;
+      margin-left: 70px;
+    }
+  }
+  // min-width: 551px
+  
+} // #cover_area
 
 #service_area{
    
